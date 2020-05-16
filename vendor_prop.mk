@@ -219,7 +219,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.stagefright.omx_default_rank.sw-audio=1 \
     debug.stagefright.omx_default_rank=0
-    
+ 
+# QC framework value-adds
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.va_aosp.support=1
+
+PRODUCT_ODM_PROPERTIES += \
+    ro.vendor.qti.va_odm.support=1
+ 
 # QCOM cabl
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.cabl=2
