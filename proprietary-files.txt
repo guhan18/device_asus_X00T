@@ -126,6 +126,10 @@ vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|9aafedaa8da8f0eb13bc957acb
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|5c24249adf85a30aa66f6a391bf697063d989a87
 vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|20464213b5f2cdb7d9c10f31b5b53fc03526698f
 
+# Bluetooth aptX
+product/lib64/libaptXHD_encoder.so
+product/lib64/libaptX_encoder.so
+
 # Camera
 vendor/lib/hw/camera.sdm660.so
 vendor/lib/libarcsoft_beautyshot.so
