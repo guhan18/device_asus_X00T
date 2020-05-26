@@ -416,8 +416,12 @@ PRODUCT_COPY_FILES += \
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
-    libqti_vndfwk_detect \
-    libvndfwk_detect_jni.qti
+    libqti_vndfwk_detect.vendor \
+    libvndfwk_detect_jni.qti.vendor
+
+# QNS
+PRODUCT_PACKAGES += \
+    libstdc++.vendor
 
 # Seccomp
 PRODUCT_COPY_FILES += \
@@ -489,9 +493,9 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
 
-# VNDK-SP:
+# VNDK
 PRODUCT_PACKAGES += \
-    vndk-sp
+    vndk_package
 
 # VR
 PRODUCT_PACKAGES += \
