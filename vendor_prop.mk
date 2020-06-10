@@ -64,6 +64,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.audiozoom.enable=false \
     vendor.audio.feature.snd_mon.enable=false \
     vendor.audio.flac.sw.decoder.24bit=true \
+    vendor.audio_hal.period_multiplier=2 \
     vendor.audio.hw.aac.encoder=true \
     vendor.audio.offload.buffer.size.kb=64 \
     vendor.audio.offload.gapless.enabled=true \
