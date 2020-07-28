@@ -331,3 +331,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.adb.secure=0 \
     ro.secure=0 \
     ro.debuggable=1        
+# HW Overlay
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.disable_hwc=1
